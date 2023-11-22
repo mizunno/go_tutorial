@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main () {
+	// Boolean variable
 	printMessage := true
 
 	if printMessage {
@@ -39,6 +40,7 @@ func main () {
 	hasMoney := true
 	hasCredit := true
 
+	// logic AND
 	if hasMoney && hasCredit {
 		fmt.Println("You have money and credit!")
 	}
@@ -46,12 +48,14 @@ func main () {
 	hasApple := true
 	hasBanana := true
 
+	// logic OR
 	if hasApple || hasBanana {
 		fmt.Println("You have some fruit.")
 	}
 
 	hasPineapple := false
 
+	// logic NOT
 	if !hasPineapple {
 		fmt.Println("You don't have pineapple.")
 	}
